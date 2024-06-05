@@ -22,11 +22,11 @@ Host wisteria
 参考：https://www.cc.u-tokyo.ac.jp/events/lectures/156/20210604_OnlineClass.pdf 
 
 ## basic commands
-トークン使用状況確認：`show_token`　　
-メモリ使用状況確認：`show_quota`　　
-バッチ実行：`pjsub`（ABCIをqをpjに置換して使う感覚）　　
-キューの状態確認：`pjstat` 　　
-混雑状況確認：`pjstat --rscuse` / `pjstat --rsc -b`　　
+- トークン使用状況確認：`show_token`　
+- メモリ使用状況確認：`show_quota`　
+- バッチ実行：`pjsub`（ABCIをqをpjに置換して使う感覚）　　
+- キューの状態確認：`pjstat` 　　
+- 混雑状況確認：`pjstat --rscuse` / `pjstat --rsc -b`　　
 
 
 ## batch job
